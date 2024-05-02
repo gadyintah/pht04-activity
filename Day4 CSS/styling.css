@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.bg {
+    background: rgb(223,224,66);
+    background: linear-gradient(90deg, rgba(223,224,66,1) 0%, rgba(89,186,53,1) 29%, rgba(36,54,154,1) 100%);
+
+    background-image: url('sample.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/574/139/small_2x/colorful-abstract-background-modern-fluid-background-free-vector.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; 
+    background-attachment: fixed ;
+    
+    /* background: bg-color || bg-image || bg-position || bg-repeat || bg-size || bg-attachment */
+
+    /* background: aqua url('sample.jpg') center cover no-repeat fixed;  */
+}
+
+.font-sample {
+    font-family: "Space Mono",
+    sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: mintcream;
+}
+
+.text-sample {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.spacing-sample {
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: palegoldenrod;
+    text-indent: 40px;
+}
+
+/*  
+    text-shadow : 
+        x-coordinate ||
+        y-coordinate ||
+        blur radius ||
+        color of the shadow
+*/
+#shadow-sample {
+    text-shadow: 10px -5px 8px #176e08fe;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 4 - CSS Basics</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Internal CSS -->
+    <style>
+      h3 {
+        color: green;
+      }
+
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        ORDER OF PRIORITY
+            1. Inline CSS
+            2. Internal CSS
+            3. External XSS
+     -->
+    <h3>This is a heading with External Styling.</h3>
+
+    <p>This is a paragraph with Internal styling.</p>
+
+    <!-- Inline CSS -->
+    <p style="color: brown;">This is a paragraph with Inline styling.</p>
+    <p class="parag1">This is a paragraph with a Class attribute.</p>
+    <p id="parag2">This is a paragraph with an ID attribute.</p>
+
+    <h5 href="www.example.com">This is a heading with an href attribute</h5>
+    <a href="www.example.com">This is an anchor tag with an href attribute</a>
+    <br>
+    <a href="www.example1.com">This is an anchor with an href attribute</a>
+    <br>
+
+    <h1 class="heading1">Heading 1 - Grouping Selector</h1>
+    <h2>Heading 2 - Grouping Selector</h2>
+    <h3 id="heading3">Heading 3 - Grouping Selector</h3>
+
+    <a href="https://www.example.com" class="pseudo"> Example link </a>
+
+  </body>
+</html>
