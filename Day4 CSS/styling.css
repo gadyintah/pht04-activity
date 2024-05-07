@@ -51,3 +51,30 @@
 #shadow-sample {
     text-shadow: 10px -5px 8px #176e08fe;
 }
+
+.box-model {
+    background-color: lavenderblush;
+    height: 100px;
+    width: 80px;
+
+    padding: 10px 20px 25px 50px;
+    padding-top: 30px;
+
+    border-color: crimson;
+    border-width: 5px;
+    border-style: double;    
+    border-radius: 20px 50px 40px 10px;
+    border: 10px inset orange;
+}
+
+/* 
+    border: 
+        border-color || border-width || border-style
+*/
+/* 
+    BORDER-RADIUS & PADDING:
+        1 value = applied to all 4 sides
+        2 value = top and bottom side || left and right side
+        3 value = top side || left and right side || bottom side
+        4 value = top side || right side || bottom side || left side
+*/
