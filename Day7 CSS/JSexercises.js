@@ -13,11 +13,14 @@ function calculateSomething(num1, num2){
     console.log("Quotient:", num1 / num2);
 }
 
-calculateSomething(15, 5);
+let num1 = prompt("Enter first number: ");
+let num2 = prompt("Enter second number: ");
+
+calculateSomething(num1, num2);
 
 function isEven(number){
     console.log("Is", number, "even? ");
-    if(number%2 == 0){
+    if(number%2 === 0){
         console.log(true);
     }
     else {
@@ -25,27 +28,26 @@ function isEven(number){
     }
 }
 
-isEven(4);
-isEven(3);
-isEven(15);
-isEven(20);
+let number = prompt("Enter a number to know if it's even or odd: ");
+
+isEven(number);
 
 let grade = "F";
 
 function grading(score) {
     if(score >= 90 && score <= 100){
-        grade = "A";
+        grade = "A. Wow! Amazing, you got an A!";
     }
     else if(score > 80 && score < 90){
-        grade = "B";
+        grade = "B :P";
     }
     else if(score > 70 && score < 80){
-        grade = "C";
+        grade = "C :P";
     }
     else if(score > 60 && score < 70){
-        grade = "D";
+        grade = "D :P";
     } else if(score <= 60 && score >= 0){
-        grade = "F";
+        grade = "F :P";
     } else console.log("Invalid input");
 
     console.log("Your grade is", grade);
